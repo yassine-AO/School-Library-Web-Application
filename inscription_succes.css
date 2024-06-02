@@ -1,0 +1,29 @@
+body {
+    background-color: #D2E5F5;
+}
+
+.hemlogo{
+    max-width: 200px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.home {
+    background-color: #0F4D7B;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+    text-align: center;
+  }
+.home a{
+    color: white;
+    text-decoration: none;
+}
+.home:hover {
+    background-color: #05810a;
+}
+  

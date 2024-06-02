@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+<title>
+    Inscription
+</title>
+<link rel="stylesheet" href="inscrire_style.css">
+
+</head>
+
+<body>
+    
+    <img src="img/hemlogo.png" alt="ERROR" title="HEM" class="hemlogo"> 
+
+    <h1 style="text-decoration: underline;" align="center">
+     INSCRIPTION
+    </h1>
+    <br>
+    <br>
+    <br>
+
+     <form action="php_inscription.php" method="post">
+        <h3 align="center">
+            Adhérent
+        </h3>
+        <div>
+            <label>ID</label>
+            <input type="number" required placeholder="Taper votre ID" name="id_adherent">
+        </div>
+        <br>
+        <div>
+            <label>Mot De Passe</label>
+            <input type="password" required name="mot_de_passe_adherent">
+        </div>
+        <br>
+        <div>
+            <label>Type</label>
+            <select name="type_adherent">
+                <option value="Professeur">Professeur</option>
+                <option value="Etudiant">Etudiant</option>
+              </select>
+        </div>
+        <br>
+        <div>
+            <label>Nom</label>
+            <input type="text" required placeholder="Taper votre nom" name="nom_adherent">
+        </div>
+        <br>
+        <div>
+            <label>Prenom</label>
+            <input type="text" required placeholder="Taper votre prenom" name="prenom_adherent">
+        </div>
+        <br>
+        <div>
+            <label>Adresse Mail</label>
+            <input type="email" required placeholder="Taper votre Adresse Mail" name="adresse_adherent">
+        </div>
+        <br>
+        <div>
+            <label>Nombres d'emprunts à effectuer</label>
+            <input type="number" required name="nombre_emprunts">
+        </div>
+        <br>
+        <div>
+            <label>Points</label>
+            <input type="text" required  name="points" value="20" readonly>
+        </div>
+        <br>
+        <div>
+            <label>Permission d'emprunter</label>
+            <input type="text" required  name="permission_emprunts" value="OUI" readonly>
+        </div>
+        <br>
+        <input type="submit" value="SE CONNECTER" name="save">
+       
+     </form>
+     <button><a href="home.html">Acceuil</a></button>
+</body>
+
+
+</html>

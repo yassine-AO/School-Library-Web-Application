@@ -1,0 +1,50 @@
+body {
+    background-color: #D2E5F5;
+}
+
+.hemlogo{
+    max-width: 200px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.seconnecter {
+    background-color: #0F4D7B;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+  }
+  .seconnecter:hover {
+    background-color: #421ac3;
+  }
+  .seconnecter a {
+    color: white;
+    text-decoration: none;
+  }
+
+
+  .inscrire {
+    background-color: #0F4D7B;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+  }
+  .inscrire:hover {
+    background-color: #421ac3;
+  }
+  .inscrire a {
+    color: white;
+    text-decoration: none;
+  }
+
+
+  .container {
+    text-align: center;
+  }
