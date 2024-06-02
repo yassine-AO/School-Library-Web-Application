@@ -1,10 +1,10 @@
-## School Library Web Application
+## School Library Web Application ✨💻📚
 
-### Description
+### Description⭐
 
 This project is a comprehensive web application designed to manage a school library's operations. It is built using HTML, CSS, PHP, and JavaScript, with MySQL as the database. The application allows users to manage books, handle user registrations, track book loans, and generate various reports. The system ensures that library staff can efficiently handle inventory, track user activities, and maintain records of book transactions.
 
-### Features
+### Features⭐
 
 - **User Management**: Allows registration and management of library members, including students and staff.
 - **Book Management**: Facilitates adding, updating, and tracking books in the library.
@@ -13,7 +13,7 @@ This project is a comprehensive web application designed to manage a school libr
 - **Reporting**: Generates reports on book usage, member activity, and inventory status.
 - **User Roles**: Differentiates between user roles such as administrators, agents, and members with specific permissions.
 
-### Database Connection
+### Database Connection⭐
 
 The connection to the MySQL database is established using PHP. Below is an example of how the connection is made in the `config.php` file:
 
@@ -35,7 +35,7 @@ if ($conn->connect_error) {
 
 This code initializes the connection to the MySQL database using the server name, username, password, and database name. If the connection fails, an error message is displayed.
 
-### MLD: Model Logic Description
+### MLD: Model Logic Description⭐
 
 ### Tables
 
@@ -139,6 +139,6 @@ This code initializes the connection to the MySQL database using the server name
     - `ID_adherent`: Foreign Key (Adherent)
     - `type_modif_adherent`: Type of modification
 
-### License
+### License🧾
 
 This project is licensed under the MIT License. This license allows anyone to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, provided that the original copyright notice and this permission notice are included in all copies or substantial portions of the software. It promotes open-source development and ensures that the software remains freely available for both personal and commercial use.
